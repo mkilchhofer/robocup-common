@@ -15,6 +15,11 @@
     <version>${revision}</version>
 
     <properties>
+        <!--
+            Define revision as fallback, normally defined via evn variable.
+            (eg. MAVEN_OPTS=-Drevision=$(date +%Y%m%d)-SNAPSHOT)
+        -->
+        <revision>1.0-SNAPSHOT</revision>
         <bintray.repo>robocup</bintray.repo>
         <bintray.package>robocup-common</bintray.package>
         <bintray.subject>mkilchhofer</bintray.subject>
