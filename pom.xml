@@ -10,19 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>info.kilchhofer.bfh</groupId>
-    <artifactId>robocup-base</artifactId>
-    <packaging>pom</packaging>
-    <version>20180602.2</version>
-
-    <modules>
-        <module>robocup-common</module>
-    </modules>
+    <artifactId>robocup-common</artifactId>
+    <packaging>jar</packaging>
+    <version>20180603.0</version>
 
     <properties>
         <bintray.repo>robocup</bintray.repo>
-        <bintray.package>robocup-base</bintray.package>
+        <bintray.package>robocup-common</bintray.package>
         <bintray.subject>mkilchhofer</bintray.subject>
-        <bintray.version>mkilchhofer</bintray.version>
     </properties>
 
     <repositories>
