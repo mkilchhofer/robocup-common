@@ -1,12 +1,13 @@
 package info.kilchhofer.bfh.robocup.common;
 
+import ch.quantasy.mqtt.gateway.client.message.annotations.AValidator;
 import ch.quantasy.mqtt.gateway.client.message.annotations.StringForm;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.apache.logging.log4j.spi.StandardLevel;
 
-public class LoggerSettings {
+public class LoggerSettings extends AValidator {
     @StringForm
     public String name;
 
